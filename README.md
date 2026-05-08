@@ -115,7 +115,6 @@ UART transmits and receives data asynchronously, meaning there is no shared cloc
 #if defined(__GNUC__)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #endif
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -195,9 +194,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  printf("212224040027\n");
-	  printf("ANS NERLING EMIMA\n");
-	  printf("CSE DEPT\n");
+	  printf("212224240056\n");
+	  printf("HEMALATHA A\n");
+	  printf("B-TECH-AIML\n");
 	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
@@ -208,7 +207,6 @@ PUTCHAR_PROTOTYPE
 HAL_UART_Transmit(&huart2,(uint8_t*)&ch,1,0xFFFF);
 return ch;
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -352,8 +350,6 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
-
 ```
 
 ## Output screen shots of Serial port utility   :
